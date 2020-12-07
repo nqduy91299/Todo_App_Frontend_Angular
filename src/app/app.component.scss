@@ -1,0 +1,19 @@
+.wrapper {
+  .title {
+    font-size: 120px;
+    text-align: center;
+    color: darkseagreen;
+    padding: 2rem;
+  }
+  & .todo-wrapper {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    background: white;
+
+    & app-header {
+      height: 40px;
+      padding: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

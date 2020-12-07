@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TodoInputComponent } from './components/todo-input/todo-input.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,7 @@ import { TodoItemComponent } from './components/todo-item/todo-item.component';
     TodoInputComponent,
     TodoItemComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FormsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
